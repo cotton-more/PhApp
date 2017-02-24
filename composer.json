@@ -1,0 +1,25 @@
+{
+    "name": "vansanblch/PhApp",
+    "type": "project",
+    "require": {
+        "php": "^7.0",
+        "ext-phalcon": "^3.0"
+    },
+    "require-dev": {
+        "symfony/debug": "^3.2",
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhApp\\": "phapp/",
+            "": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Nikulin",
+            "email": "vansanblch@gmail.com"
+        }
+    ]
+}
